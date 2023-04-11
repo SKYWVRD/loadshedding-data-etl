@@ -12,3 +12,17 @@ def get_current_status():
 def get_area_information():
     response = requests.get(
         'https://developer.sepush.co.za/business/2.0/area?id=eskde-10-fourwaysext10cityofjohannesburggauteng&test=current', headers=MY_HEADERS)
+    json_object = json.loads(response.text)
+    
+
+    return json_object
+
+
+def parse_area_information():
+    pass
+
+
+
+area_information = get_area_information()
+
+print(type(area_information))
