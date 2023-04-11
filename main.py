@@ -18,7 +18,7 @@ def get_area_information():
     return json_object
 
 
-def parse_area_information():
+def parse_area_information(json_object: dict):
     pass
 
 

@@ -7,3 +7,5 @@ Once the file is completely written the lamda function will move the parsed file
 
 This data will then be accessed by a dashboard to show the amount of loadshedding we have had, as well as the amount of each stage we have had.
 This will be split between Cape Town and Eskom direct, as well as both together
+
+This repo will store the documentation as well as the various AWS lambda functions used 
